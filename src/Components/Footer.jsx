@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-
 function Footer() {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center gap-[95px] list-none font-semibold text-[19px] mt-[12%]'>
@@ -20,15 +19,12 @@ function Footer() {
         <li>Instagram</li>
         <li>Twitter</li>
         <li>LinkedIn</li>
-    
       </div>
       <div>
         <p>Privacy Policy</p>
         <p>Terms Of service</p>
       </div>
-      
     </div>
   )
 }
-
 export default Footer
