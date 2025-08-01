@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 function Component1() {
   return (
     <div className='flex justify-between mt-[50px] items-center ml-[30px]'>
@@ -18,5 +16,4 @@ function Component1() {
     </div>
   )
 }
-
 export default Component1
